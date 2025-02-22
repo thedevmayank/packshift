@@ -1,0 +1,158 @@
+@media only screen and (min-width:200px) and (max-width:567px){
+   /* .container{
+      position: sticky;
+      top: 0px;
+   } */
+
+   .container .header .logo img{
+      margin: auto;
+   }
+   .NumberIcon{
+      display: none;
+   }
+   .form-section{
+      display: block;
+      padding: 0;
+      padding-bottom: 20px;
+   }
+   .form-section .left{
+      width: 100%;
+      text-align: center;
+      margin: 0px;
+      padding: 10px;
+      text-transform: uppercase;
+
+   }
+   .form-section .left h1{
+      width: 100%;
+      font-size: 24px;
+      padding: 0;
+      text-align: center;
+      
+   }
+   .form-section .left h1 span{
+      font-size: 26px;
+   }
+   .form-section .left h3{
+      font-weight: bold;
+      font-size: 18px;
+      padding-bottom: 0px; 
+   }
+   .form-section .left h4{
+      font-size: small;
+      
+   }
+   .form-section .left img{
+      width: 17%;
+      height: 17%;
+   }
+   .form-section .right{
+      width: 96%;
+      margin: 0px;
+      margin: auto;
+   }
+   .right .captcha{
+      display: block;
+   }
+   .right .captcha input{
+      width: 100%;  
+   }
+   .right .captcha :last-child{
+      padding: 20px 0px;
+      text-align: center;
+      font-size: 18px;
+      color: black;
+   }
+   .youtube-section{
+      display: block;
+   }
+   .box-main{
+      display: block;
+      margin: auto;
+   
+   }
+   .box-main .box-inner{
+      width: 92%;
+      margin: auto;
+      margin-top: 15px;
+   }
+   .why-packficks-section .why-packficks-section-inner{
+      justify-content: space-around;
+   }
+   .why-packficks-section .why-packficks-section-inner .box{
+      width: 45%;
+      /* border: 1px solid; */
+      background-color:#F4F4F4;
+      text-align: center;
+      border-radius: 10px;
+      padding: 1%;
+      font-family: "Lato", serif;
+      font-weight: 600;
+      margin-top: 15px;
+  }
+  .why-packficks-section .location-row{
+   font-size: 20px;
+  }
+  .why-packficks-section .location-row p{
+   font-weight: bold;
+  }
+  .achievement-section .box .inner-box{
+   width: 45%;
+   flex-wrap: wrap;
+  }
+  .feedback-box{
+   width: 500px;
+   padding-left: 0;
+  }
+  .feedback-box p{
+   margin: 0;
+   margin-top: 100px;
+   margin-left: 30px;
+   line-height: 22px;
+
+  
+  }
+  .feedback-box .feedback-image{
+   width: 25%;
+   padding: 0;
+   top: 11px;
+   left: 175px;
+   margin: 0;
+  }
+  .feedback-box .feedback-image img{
+   width: 100%;
+   margin: 0;
+   padding: 0;
+
+  }
+  .feedback-box .feedback-image p{
+   margin: 0;
+   margin-left: 15px;
+   margin-bottom: 10px;
+   padding: 0;
+  }
+  .client-bg .brands{
+
+   display: block;
+   text-align: center;
+  }
+  .client-bg .brands .box{
+   display: none;
+  }
+  .client-bg .brands .mahindra{
+   display: block;
+  }
+ .address .address-box{
+   width: 80%;
+  }
+  .address .address-box .Number{
+   width: 40%;
+  }
+  .footer .footer-inner{
+   width: 96%;
+  }
+  .truck{
+   display: none;
+  }
+
+}
