@@ -3,6 +3,15 @@
       position: sticky; 
       top: 0px;
    }
+   .mobile-btns{
+      display: flex;
+      position: fixed;
+      bottom: 0px;
+      z-index: 9999;
+   }
+   .mobile-btns span{
+      text-transform: none;
+   }
 
    .container .header .logo img{
       margin: auto;
@@ -100,6 +109,9 @@
    width: 45%;
    flex-wrap: wrap;
   }
+  .happy-customer-row .location-row{
+   font-size: small;
+  }
   .feedback-box{
    /* width: 500px; */
    padding-left: 0;
@@ -110,16 +122,16 @@
    margin: 0;
    padding-top: 40px;   
    margin-top: 100px;
-   margin-left: 30px;
+   /* margin-left: 30px; */
    line-height: 22px;
 
   
   }
   .feedback-box .feedback-image{
-   width: 25%;
+   width: 33%;
    padding: 0;
    top: 11px;
-   left: 175px;
+   left: 30%;
    margin: 0;
   }
   .feedback-box .feedback-image img{
@@ -148,11 +160,20 @@
  .address .address-box{
    width: 80%;
   }
-  .address .address-box .Number{
-   width: 40%;
+  .address .address-box .Number {
+   width: 100%;
+  }
+  .address .address-box .Number i{
+   /* width: 65%; */
   }
   .footer .footer-inner{
    width: 96%;
+  }
+  .footer{
+   margin-bottom: 30px;
+  }
+  .footer .reserve-div{
+   font-size: small;
   }
   .truck{
    display: none;

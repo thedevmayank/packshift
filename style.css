@@ -43,11 +43,12 @@
     align-items:center;
 }
 .NumberIcon{
-   
+    display: block;  
     padding: 18px;
     margin-right: 10px;
     border-radius: 10px 10px 0px 10px;
-    animation: bg 1s 0s infinite linear;    
+    animation: bg 1s 0s infinite linear; 
+    
    
 
 }
@@ -357,14 +358,15 @@ iframe{
 .feedback-box .feedback-image{
     width: 20%;
     position: absolute;
-    left: -60px;
-    top: 30%;
+    left: -94px;
+    top: 10%;
     /* border: 2px solid; */
     background-color: #FFCF3F;
     border-radius: 10px;
     text-align: center;
     color: white;
     padding: 10px 0px;
+    
 }
 .feedback-box .feedback-image img{
     width: 100px;
@@ -389,6 +391,9 @@ iframe{
 }
 .client-bg .brands .box{
     width: 19%;
+}
+.client-bg .brands .mahindra{
+    display: none;
 }
 .client-bg .brands .box img{
     width: 100%;
@@ -418,18 +423,14 @@ iframe{
     margin-top: 10px;
     
 }
-.address .address-box .Number{
-    width: 58%;
+.address .address-box .Number i{
+    max-width: 32%;
     display: flex;
     padding: 12px;
     margin: auto;
     margin-top: 20px;
     border-radius: 22px 22px 0px 22px;
-    animation: bg 1s 0s infinite linear;
-    
-    
-   
-    
+    animation: bg 1s 0s infinite linear;  
 }
 .address .address-box .Number i{
     color: white;
@@ -480,15 +481,53 @@ iframe{
 .truck{
     width: 7%;
     position:fixed;
-    bottom: 10px;
-    
-      animation: truck 3s 0s infinite linear;
+    bottom: 6px;
+    display: block;
+    animation: truck 3s 0s infinite linear;
     
 
 }
 .truck img{
     width: 100%;
     
+}
+.truck :nth-child(2){
+    width: 10px;
+    position: absolute;
+    top: 38px;
+    left: 6px;
+}
+.truck :nth-child(3){
+    width: 10px;
+    position: absolute;
+    top: 38px;
+    left: 88px;   
+}
+.mobile-btns{
+    width:100%;
+    display: flex;
+    display: none;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    
+}
+.mobile-btns span{
+    margin-left: 5px;
+    font-weight: 400;
+}
+.mobile-btns .callbox{
+    width: 50%;
+    background-color:#035FAE;
+    padding: 16px 0px;
+}
+
+.mobile-btns .whatsapp-box{
+    width: 50%;
+    background-color:#FFCF40;
+    padding: 16px 0px;
+   
 }
 
 
