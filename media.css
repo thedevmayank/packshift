@@ -161,10 +161,7 @@
    width: 80%;
   }
   .address .address-box .Number {
-   width: 100%;
-  }
-  .address .address-box .Number i{
-   /* width: 65%; */
+   width: 50%;
   }
   .footer .footer-inner{
    width: 96%;

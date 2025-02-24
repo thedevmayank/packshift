@@ -47,9 +47,6 @@
     padding: 18px;
     margin-right: 10px;
     border-radius: 10px 10px 0px 10px;
-    animation: bg 1s 0s infinite linear; 
-    
-   
 
 }
 span{
@@ -423,19 +420,22 @@ iframe{
     margin-top: 10px;
     
 }
-.address .address-box .Number i{
-    max-width: 32%;
-    display: flex;
-    padding: 12px;
-    margin: auto;
-    margin-top: 20px;
-    border-radius: 22px 22px 0px 22px;
-    animation: bg 1s 0s infinite linear;  
+
+/* .Number{
+    width: 300px;
+    
+} */
+
+.number {
+    animation: bg 1s 0s infinite linear;    
+    margin: 15px auto;
+    width: 150px;
+    padding:5px 5px;
+    background-color: blue;
+    border-radius: 10px 10px 0px 10px;
 }
-.address .address-box .Number i{
-    color: white;
-    font-size: 18px;
- 
+.number i {
+    font-size: 20px;
 }
 .footer{
     max-width: 100%;
